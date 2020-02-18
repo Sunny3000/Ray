@@ -227,6 +227,14 @@ Ray.prototype.gameOver = function (clickTd) {
 var ray = new Ray(10, 10, 10);
 ray.init();
 
+var oIntermediate = document.getElementsByClassName("intermediate")[0];
+// ointermediate.onclick = new Ray(10, 10, 10).init();
+oIntermediate.onclick = function () {
+	var intermediate = new Ray(20, 20, 30);
+	intermediate.init();
+};
+
+
 var rest = document.getElementsByClassName('rest')[0];
 rest.onclick = function () {
 	ray.init();

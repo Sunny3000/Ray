@@ -7,12 +7,12 @@
 	margin: 50px auto;
 }
 
-.level {
+.choose {
 	text-align: center;;
 	margin-bottom: 10px;
 }
 
-.level button{
+.choose button{
 	padding: 5px 15px;
 	color: #fff;
 	background-color: #abcdef;
@@ -22,7 +22,7 @@
 	cursor: pointer;
 }
 
-.level button.active {
+.choose button.intermediate {
 	background-color: pink;
 }
 
@@ -109,7 +109,7 @@ td.seven {
 	color: black;
 }
 
-.rest:hover {
+.rest:hover, .intermediate:hover {
 	transform: scale(1.03, 1.03);
 	box-shadow: 3px 3px 3px #ccc;
 	transition: all .3s;
