@@ -108,3 +108,9 @@ td.seven {
 	background-color: #fff;
 	color: black;
 }
+
+.rest:hover {
+	transform: scale(1.03, 1.03);
+	box-shadow: 3px 3px 3px #ccc;
+	transition: all .3s;
+}
